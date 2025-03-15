@@ -1,0 +1,20 @@
+{
+  "name": "target",
+  "type": "static",
+  "description": "Replace this string with a description",
+  "shape": [
+    { "x": -5, "y": 5 },
+    { "x": 5, "y": 5 },
+    { "x": 5, "y": -5 },
+    { "x": -5, "y": -5 }
+  ],
+  "friction": {
+    "collision": 5,
+    "linear": 40,
+    "rotational": 600
+  },
+  "sensors": [],
+  "mass": 0,
+  "controller": "lib/target.so",
+  "reflection_type": "Target"
+}

@@ -1,5 +1,5 @@
-#ifndef __TARGET_AGENT__H
-#define __TARGET_AGENT__H
+#ifndef __BLOCK_AGENT__H
+#define __BLOCK_AGENT__H
 
 #include "enviro.h"
 
