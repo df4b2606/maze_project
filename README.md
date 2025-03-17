@@ -8,7 +8,7 @@ This project implements a robot that can autonomusly navigate in the simple maze
 
 **Moving State**: The robot moves forward, monitors obstacles and targets. It transitions to Turning state when encountering obstacles, to Aligning state when detecting the target from the side, and to Destination state when reaching the target.
 
-**Turning State**:\*\* When facing obstacles, the robot compares left and right sensor readings to decide rotation direction, completes a 90° turn, then returns to Moving state.
+**Turning State**: When facing obstacles, the robot compares left and right sensor readings to decide rotation direction, completes a 90° turn, then returns to Moving state.
 
 **Aligning State**: When side sensors detect the target, the robot stops and rotates until its front sensor faces the target directly, then returns to Moving state.
 
