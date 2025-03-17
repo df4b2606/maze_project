@@ -23,9 +23,13 @@ These four states automatically transition through sensor-triggered events, crea
 
 1: download the docker container with ENVIRO pre-loaded into it (In the root folder of the project)
 
+```
 docker run -p80:80 -p8765:8765 -v $PWD:/source -it klavins/enviro:v1.61 bash
+```
 
 2: Make the project and start the enviro server as follows.
 
+```
 make
 enviro
+```
